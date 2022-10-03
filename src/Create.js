@@ -21,7 +21,7 @@ const Create = () => {
   const history = useHistory();
 
   return (
-    <div className='mx-5 my-10 w-1/2 sm:mx-auto '>
+    <div className='mx-5 my-10 sm:w-1/2 sm:mx-auto '>
       <form
         class="w-full"
         onSubmit={(e) => {
