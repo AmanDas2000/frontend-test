@@ -21,7 +21,9 @@ const Home = () => {
           across any social media.
         </div>
         <div className="hidden lg:flex lg:justify-end">
-          <Button>🎉 Create my event</Button>
+          <Button><Link to='/create'>
+              🎉 Create my event
+        </Link></Button>
         </div>
       </div>
 
